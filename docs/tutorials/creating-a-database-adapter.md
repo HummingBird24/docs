@@ -45,7 +45,7 @@ export default function MyAdapter(client, options = {}) {
     async getSessionAndUser(sessionToken) {
       return
     },
-    async updateSession({ sessionToken }) {
+    async updateSession({ sessionToken, expires }) {
       return
     },
     async deleteSession(sessionToken) {
